@@ -1,0 +1,283 @@
+
+
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+h1,h2,h3{
+    font-family: 'Montserrat'sans-serif;
+}
+
+h2{
+    
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+    width: 85%;
+ 
+    
+
+}
+
+
+
+    /* headings & paragraph tag classes of page  */
+
+
+
+
+    .tittle-heading{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+        line-height: 1.5;
+        color: white;
+       
+    }
+
+    .price-text{
+        color: #000;
+        /* text-align: center; */
+        font-weight: bold;
+    }
+
+    .details-paragraph-tag{
+        color: #8f8f8f;
+
+    }
+
+    /* ....................................................................... */
+
+
+
+/* tittle section */
+
+
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7% 15%;
+   
+}
+
+.tittle-image{
+    width: 20%;
+    transform: rotate(22deg);
+    position: absolute;
+    right: 30%;
+ 
+}
+
+
+
+
+/* nav bar  */
+
+
+
+.navbar{
+    padding-bottom: 4.5rem;
+
+}
+.navbar-nav{
+    padding-left: 50px;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.nav-link{
+   
+    font-family: "Montserrat-light";
+  
+}
+
+/* download-button */
+
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+/* feature-section */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+  
+   
+   
+}
+
+.feature-box{
+  /* text-align: center;  decleared in body */
+  padding: 4%;
+}
+.feature-icon{
+    color: #ef8172;
+    margin-bottom: 1.2rem;
+    
+}
+.feature-icon:hover{
+    
+    color:#ff4c68 ;                 
+}
+
+
+
+
+ /* <!-- Testimonials --> */
+
+ #testimonials{
+
+   
+    background-color: #ef8172;
+    /* text-align: center; */
+    color: #fff;
+
+ }
+                                                                                    /* agr dono element me position ho aur z index nhi dete to according to flow chart neeche wala upper sit on top */
+ .testimonial-text{
+      margin-left: 5.5rem;
+      font-weight: bold;
+    
+ }
+ 
+ .testimonial-image{
+   
+     width: 10%;
+     border-radius: 50%;
+     margin: 20px;
+     
+ }
+ .carousel-item{
+    padding:  7% 15% ;
+ }
+
+
+
+
+    /* press-section */
+
+
+
+
+    #press{
+        background-color: #ef8172;
+        /* text-align: center; */
+        padding-bottom: 3%;
+    }
+
+    .press-image{
+        width: 12%;
+        margin: 20px 20px 50px;
+    }
+
+
+
+
+
+    /* price Section */
+
+
+
+
+#pricing{
+    padding: 100px;
+    /* text-align: center; */
+}
+
+.money-box{
+    margin: 5% 5%;
+}
+
+
+.centre-locatorh2{
+    margin-left:100px ;
+}
+
+
+/* <!-- Call to Action --> */
+
+
+
+
+#cta{
+
+    background-color: #ff4c68;
+    font-family:'Montserrat' ;
+    /* text-align: center; */
+    padding: 5% 7%;
+
+    
+}
+
+/* .cta-h3{
+    color: #fff;                                            
+     width: 60%;
+  font-size: 3rem;
+   margin: auto;
+   width: 60%;
+   line-height: 4.5rem;
+} */
+
+   #cta h3{
+    color: #fff;
+    font-size: 3rem;
+     margin: auto;                                                /*  means all the h3 that contained inside id cta do something*/
+     width: 60%;
+     line-height: 4.5rem;
+   }
+
+.btn-cta{
+    margin: 5% 2%;
+}
+
+
+/* footer desiging  */
+
+#footer{
+    
+    padding: 7% 3%;
+}
+
+.footer-icon{
+    padding: 5% 0.5% 1% 1%;
+}
+
+
+/* for mobile and tab view media query breakpoint */
+
+@media (max-width:1040px){
+    #title{
+        text-align: center;
+    }
+
+
+    .tittle-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+}
+
+/* ............................................... */
